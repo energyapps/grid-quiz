@@ -366,11 +366,11 @@ Map
             transition: background-color 300ms ease-out;
         }
 
-        #result-text {
+        .result-text {
             display: none;
         }
 
-        #result-text.active {
+        .result-text.active {
             display: block;
         }
 
