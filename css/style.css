@@ -428,6 +428,7 @@ Map
             margin: 0 auto;
             display: block;
             height: auto;
+            max-height: 600px;
         }
 
         .map-image img.force-full {
@@ -462,6 +463,7 @@ Map
             -webkit-border-radius: 0;
             /*display: inline-block;           */
             transition: background-color 300ms ease-out;
+            height: inherit;
         }
 
         .a-bg.correct.active {
@@ -546,6 +548,12 @@ Map
 
 
 @media only screen and (min-width: 40.063em) { 
+        .small-a    {height: 40px}
+        .medium-a   {height: 60px}
+        .large-a    {height: 80px}
+        .xlarge-a   {height: 100px}
+        .xxlarge-a   {height: 120px}
+
         .rowDOE h1 {
             font-size: 52px;        
             letter-spacing: 15px;
@@ -582,12 +590,20 @@ Map
 
 
     } /* min-width 641px, medium screens */
+
+
 @media only screen and (min-width: 64.063em) { 
+        .small-a    {height: 40px}
+        .medium-a   {height: 40px}
+        .large-a    {height: 60px}
+        .xlarge-a   {height: 80px}
+        .xxlarge-a   {height: 100px}
+
         .dropdown {
             padding-left: 0.9375rem;
             padding-right: 0.9375rem;
         }
-        .a-options {
+/*        .a-options {
             padding-right: 0.4rem; 
             padding-left: 0.4rem;
         }
@@ -596,7 +612,7 @@ Map
         }
         .a-options.first-c {
             padding-left: 0rem;         
-        }        
+        }  */      
     } /* min-width 1025px, large screens */
 
 
