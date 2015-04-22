@@ -138,6 +138,7 @@ for (var k = 0; k < NumOfQuestions; k++) {
 	QuestionIndex.push(0);
 };
 
+(function ($) { 
 //clicking the first time per question causes a question to be answered. after that it does nothing. (see if statement inside)
 $('.a-bg').click(function (e) {
 	e.preventDefault();
@@ -183,6 +184,7 @@ $('.a-bg').click(function (e) {
 		};
 	};
 });
+}(jQuery));  
 
 
 
