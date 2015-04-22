@@ -145,6 +145,11 @@ Map
             border-bottom: none !important;
         }       
 
+/*If its on the /maps, make it white for the context info*/
+        .node-type-map .context-info p {
+            color: #fff !important; 
+        }
+
     /* The Colors duke, the colors*/
         .header-color {
             background-color: rgb(140,198,63);
