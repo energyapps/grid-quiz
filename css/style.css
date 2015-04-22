@@ -238,7 +238,7 @@ Map
         }
 
 /*Was .middle-block p*/
-        p {       
+        .a-bg p, .score p {             
             border-bottom: none !important;     
             margin:0px !important;
             text-align: center;
@@ -248,6 +248,11 @@ Map
             font-size: 18px;
             font-weight: bold;
             font-family: 'Avenir LT W02 35 Light',verdana,sans-serif;
+        }
+
+        .score p {
+            font-size: 15px;
+            text-align: center !important;
         }
 
         .green {
